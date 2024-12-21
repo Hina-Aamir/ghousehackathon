@@ -5,7 +5,7 @@ import Header from "../components/Header"
 const RentalSummary=({})=> {
   return (
     <div>
-        <Header text="Content"></Header>
+        <Header ></Header>
     <div className="w-full max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
      
       {/* Rental Summary Header */}

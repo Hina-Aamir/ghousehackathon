@@ -6,7 +6,7 @@ import Link from 'next/link';
 const billing=({})=>{
     return(
         <div className="bg-white">
-            <Header text="Content"></Header>
+            <Header ></Header>
 
             <div className="w-full  bg-white p-6 rounded-lg shadow-lg">
      

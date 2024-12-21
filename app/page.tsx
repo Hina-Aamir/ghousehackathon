@@ -1,9 +1,8 @@
-import { Input } from "@/components/ui/input"
+
 import Header from "./components/Header"
-import Image from 'next/image'
+
 import Link from 'next/link';
-import { Label } from "@/components/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+
 
 import Card from "./components/Card"
 import Footer from "./components/Footer"
