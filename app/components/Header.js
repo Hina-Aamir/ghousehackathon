@@ -1,16 +1,66 @@
 import Image from "next/image";
-const Header =({text})=> {
+const Header =({})=> {
     return (
-     <div className="bg-black width=full height=1/5 text-white flex justify-between items-center px-20 pt-5 pb-5 ">
-        <div className="">
-        <h1 className="text-2xl font-inter font-semibold leading-8 tracking-[0.01em] text-justify">{text}</h1></div>
+     <div className="bg-[#FFFFFF] 
+ width=full height=1/5 text-white flex justify-between items-center m-4">
+<div>
+
+<div className="flex justify-between space-10">
         <div><Image
-        src="/assets/logo.png"
+        src="/assets/Morent.png"
         alt="logo"
-        width="65"
-        height="78"
+        width="148"
+        height="44"
         opacity="50%"
         /></div>
+  <div><Image
+        src="/assets/Search.png"
+        alt="logo"
+        width="492"
+        height="44"
+        opacity="50%"
+        /></div>
+
+</div>
+</div>
+<div>
+
+  <div className="flex justify-evenly">
+
+  
+  <div className="hidden sm:block"><Image
+        src="/assets/Like.png"
+        alt="logo"
+        width="44"
+        height="44"
+        opacity="50%"
+        /></div>
+  
+  <div className="hidden sm:block"><Image
+        src="/assets/Notification.png"
+        alt="logo"
+        width="44"
+        height="44"
+        opacity="50%"
+        /></div>
+  
+  <div className="hidden sm:block"><Image
+        src="/assets/Settings.png"
+        alt="logo"
+        width="44"
+        height="44"
+        opacity="50%"
+        /></div>
+<div><Image
+        src="/assets/profile.png"
+        alt="logo"
+        width="44"
+        height="44"
+        opacity="50%"
+        /></div>
+
+</div>
+</div>
          </div>
     );
   }

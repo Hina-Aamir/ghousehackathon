@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
 
-const Card=({model,brand,miles,type,sitting,price}) =>{
+const Card=({car,model,brand,miles,type,sitting,price}) =>{
     return (
         <div className="w-full max-w-xs mx-auto border border-gray-300 bg-white m-6 rounded-lg shadow-lg overflow-hidden">
   {/* Card Header */}
@@ -18,7 +18,7 @@ const Card=({model,brand,miles,type,sitting,price}) =>{
   
   <div className="w-full">
     <Image 
-      src="/assets/Car.png" 
+      src={car}
       alt={`${model} image`} 
       width={600} 
       height={300} 

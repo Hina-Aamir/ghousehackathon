@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Footer =({})=> {
     return (
-<div>
+<div className="container mx-auto p-4">
 <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 p-6 m-6">
   {/* First Column (Morent Logo and Text) */}
   <div className="w-full">
@@ -14,8 +14,8 @@ const Footer =({})=> {
         style={{ opacity: '50%' }}
       />
     </div>
-    <div>
-      <p className="font-medium text-lg leading-6 text-left text-[#13131399]">
+    <div className="font-medium text-lg leading-6 text-left text-[#13131399]">
+      <p >
         Our vision is to provide convenience
       </p>
       <p>and help increase your sales business.</p>

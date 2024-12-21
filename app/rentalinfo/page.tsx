@@ -8,7 +8,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 const rentalinfo=({})=>{
     return(
         <div className="bg-white">
-            <Header text="Content"></Header>
+            <Header ></Header>
 
             <div className="w-full  bg-white p-6 rounded-lg shadow-lg">
      
