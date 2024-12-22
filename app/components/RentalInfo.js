@@ -1,14 +1,13 @@
 import { Input } from "@/components/ui/input"
-import Header from "../components/Header"
-import { Button } from "@/components/ui/button"
-import Link from 'next/link';
+
+
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 
-const rentalinfo=({})=>{
+const RentalInfo=({})=>{
     return(
         <div className="bg-white">
-            <Header ></Header>
+      
 
             <div className="w-full  bg-white p-6 rounded-lg shadow-lg">
      
@@ -81,16 +80,11 @@ const rentalinfo=({})=>{
             
             </div>
             
-           <div className="flex justify-center">
-<Link href="/payment">
-      <Button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
-    Next
-    </Button> 
-    </Link> </div> 
+  
             </div>
     )
 }
 
 
-export default rentalinfo;
+export default RentalInfo;
 

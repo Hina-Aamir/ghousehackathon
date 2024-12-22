@@ -1,12 +1,11 @@
 import { Input } from "@/components/ui/input"
-import Header from "../components/Header"
-import { Button } from "@/components/ui/button"
-import Link from 'next/link';
 
-const billing=({})=>{
+
+
+const Billing=({})=>{
     return(
         <div className="bg-white">
-            <Header ></Header>
+        
 
             <div className="w-full  bg-white p-6 rounded-lg shadow-lg">
      
@@ -54,16 +53,11 @@ const billing=({})=>{
             
             </div>
             
-           <div className="flex justify-center">
-<Link href="/rentalinfo">
-      <Button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
-    Next
-    </Button> 
-    </Link> </div> 
+    
             </div>
     )
 }
 
 
-export default billing;
+export default Billing;
 

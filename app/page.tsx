@@ -12,7 +12,7 @@ import CarRentalAd2 from "./components/CarRentalAd2"
 import PickDrop from './components/pickdrop'
 export default function Home() {
   return (
-    <div className="bg-gray-200">
+    <div className="">
     <Header ></Header>
 
 <div className="container mx-auto p-4">

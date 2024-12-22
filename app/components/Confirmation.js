@@ -1,5 +1,5 @@
 
-import Header from "../components/Header"
+
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
 import { Label } from "@/components/ui/label"
@@ -7,11 +7,10 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Image from 'next/image';
 
 
-const confirmation=({})=>{
+const Confirmation=({})=>{
     return(
         <div className="bg-white">
-            <Header ></Header>
-
+         
             <div className="w-full  bg-white p-6 rounded-lg shadow-lg">
      
      <div className="text-center mb-6">
@@ -45,7 +44,7 @@ const confirmation=({})=>{
 </div>
             
            <div className="flex justify-center">
-<Link href="/thank">
+<Link href="./thank">
       <Button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
     Rent Now
     </Button> 
@@ -74,4 +73,4 @@ const confirmation=({})=>{
 }
 
 
-export default confirmation;
+export default Confirmation;

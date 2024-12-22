@@ -1,9 +1,10 @@
 import Image from "next/image";
 const Header =({})=> {
     return (
-     <div className="bg-[#FFFFFF] 
- width=full height=1/5 text-white flex justify-between items-center m-4">
-<div>
+     <div   >
+      <div className="bg-[#FFFFFF] 
+ width=full height=1/5 text-white flex justify-between items-center m-4 ">
+<div >
 
 <div className="flex justify-between space-10">
         <div><Image
@@ -59,6 +60,7 @@ const Header =({})=> {
         opacity="50%"
         /></div>
 
+</div>
 </div>
 </div>
          </div>
