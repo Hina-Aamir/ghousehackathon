@@ -18,10 +18,10 @@ export default function CarRentalAd2() {
       <div className="relative w-full lg:w-1/2 h-64">
         <Image
           src="/assets/Look.png" // Replace with your image path
-          alt="Car Rental"
-          layout="fill"
-          objectFit="contain"
-          className="rounded"
+          alt="Car Rental" width="500" height="500"
+          // layout="fill"
+          // objectFit="contain"
+          // className="rounded"
         />
       </div>
     </div>

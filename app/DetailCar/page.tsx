@@ -131,7 +131,8 @@ height={24}/>
 </div>
 <div>
     <p className="text-[20px] font-normal leading-[40px] tracking-[-0.02em] text-left ">
-    NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".
+    NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving 
+    proving ground, the "race track".
     </p>
 </div>
 <div className="grid grid-cols-2   gap-4 m-4">

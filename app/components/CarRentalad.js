@@ -19,9 +19,8 @@ export default function CarRentalAd() {
       <Image
         src="/assets/ad1.png" // Replace with your image path
         alt="Car Rental"
-        layout="fill"
-        objectFit="contain"
-        className="rounded"
+      width="500"
+      height="500"
       />
     </div>
   </div>
