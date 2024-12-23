@@ -10,9 +10,9 @@ import PickDrop from '../components/pickdrop'
 export default function Category(){
     return(
 
-<div>
+<div className="container mx-auto p-4">
 <Header/>
-<div>
+<div  className="container mx-auto p-4 sm:text-center">
 
 
 <div className="grid grid-cols-[360px,3fr] gap-4">

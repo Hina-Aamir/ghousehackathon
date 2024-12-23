@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const RentalSummary=({})=> {
+const Summary=({})=> {
   return (
-    <div className="w-full max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+    <div className="w-full mx-auto bg-white p-6 ">
       {/* Rental Summary Header */}
       <div className="text-center mb-6">
         <h2 className="text-2xl font-semibold text-gray-800">Rental Summary</h2>
@@ -13,7 +13,7 @@ const RentalSummary=({})=> {
       <div className="flex items-center mb-6">
         <div className="w-24 h-16 mr-4">
           <Image 
-            src="/assets/NissanGT-R.png" 
+            src="/assets/Look.png" 
             alt="Nissan GT-R" 
             width={96} 
             height={64} 
@@ -67,4 +67,4 @@ const RentalSummary=({})=> {
     </div>
   );
 }
-export default RentalSummary;
+export default Summary;

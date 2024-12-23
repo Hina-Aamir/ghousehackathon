@@ -10,9 +10,9 @@ import Image from 'next/image';
 export default function DetailCar(){
     return(
 
-<div>
+<div className="r">
 <Header/>
-<div>
+<div >
 
 
 <div className="grid grid-cols-[360px,3fr] gap-4">
@@ -221,8 +221,9 @@ height={30}/>
 
 
   <div>
-<div className="container mx-auto p-4">
-  <div className="grid grid-cols-2   gap-4 m-4">
+  <div className="container mx-auto p-4">
+  
+  <div className="grid grid-cols-2  sm:grid-cols-1 gap-4 ">
  <div className=""><h4>Recent Car</h4></div>
 <div className="flex justify-end"><h4>View All</h4></div> 
 </div>

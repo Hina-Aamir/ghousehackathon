@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Header =({})=> {
     return (
-     <div   >
+     <div  className="container mx-auto p-4">
       <div className="bg-[#FFFFFF] 
  width=full height=1/5 text-white flex justify-between items-center m-4 ">
 <div >
