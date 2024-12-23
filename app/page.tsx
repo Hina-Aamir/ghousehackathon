@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import { Button } from "@/components/ui/button"
-import CarRentalad from "./components/CarRentalAd"
+import CarRentalad from "./components/CarRentalad"
 import CarRentalAd2 from "./components/CarRentalAd2"
 import PickDrop from './components/pickdrop'
 export default function Home() {
