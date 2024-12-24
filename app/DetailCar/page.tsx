@@ -6,11 +6,11 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import Image from 'next/image';
-
+import Reviews from '../components/Reviews'
 export default function DetailCar(){
     return(
 
-<div className="r">
+<div className="">
 <Header/>
 <div >
 
@@ -168,50 +168,18 @@ height={24}/>
 
 <div className="bg-red-500 p-4 text-white container mx-auto p-4 " >
     <h1>Reviews</h1>
-   <div className="grid grid-cols-2   gap-4 m-4">
-   <div className=" "> <Image
-src="/assets/profile.png" 
-          alt="Profile"
-width={30}
-height={30}/>
-</div>
-    <div className="grid grid-cols-2   gap-4 m-4">
-    <div>
-<div className="container mx-auto p-4">
-  <div >
- <div className=""><h4>Alex Stanton</h4><p>CEO at Bukalapak</p>
- 
- </div>
-<div className="flex justify-end"><p>21 July 2022</p>
-<div>
-<div className="flex space-x-2">
-      {[...Array(5)].map((_, index) => (
-        <Image
-          key={index}
-          src="/assets/star.png"
-          alt="Star"
-          width={24}
-          height={24}
-        />
-      ))}
-    </div>
-</div>
-</div> 
-</div>
-</div>
 
-    </div>
-    
-    </div>
-    </div> 
+<Reviews image="/assets/profile.png" name='Alex Stanton' profession='CEO at Bukalapak' date='21 July 2022'
+description="We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable 
+facilities. In addition, the service provided by the officers is also very friendly and very polite."/>
+
+<Reviews image="/assets/Profill.png"name="Skylar Dias"profession="CEO at Amazon"date="20 July 2022"description="We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite."/>
+
+   
     
 </div>
-<div className="bg-yellow-500 p-4 text-white rounded">Item 4</div>
-
-
 
 </div>
-
 
 
 
@@ -223,7 +191,7 @@ height={30}/>
   <div>
   <div className="container mx-auto p-4">
   
-  <div className="grid grid-cols-2  sm:grid-cols-1 gap-4 ">
+  <div className="grid grid-cols-2   gap-1  ">
  <div className=""><h4>Recent Car</h4></div>
 <div className="flex justify-end"><h4>View All</h4></div> 
 </div>
